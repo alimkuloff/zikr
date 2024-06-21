@@ -53,6 +53,7 @@
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
+  transition: 0.3s;
 }
 
 .reset-button:hover {
@@ -61,4 +62,5 @@
 
 .reset-button:active {
   background-color: #b71c1c;
+  transform: scale(0.95);
 }
