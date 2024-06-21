@@ -32,6 +32,7 @@
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
+  transition: 0.3s;
 }
 
 .counter-button:hover {
@@ -40,6 +41,7 @@
 
 .counter-button:active {
   background-color: #0a66c2;
+  transform: scale(0.95);
 }
 
 .reset-button {
